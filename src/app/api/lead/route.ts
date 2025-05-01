@@ -4,7 +4,11 @@ import { createOdooLead } from '@/utils/odoo';
 export async function POST(request: Request) {
   try {
     // Obter dados do corpo da requisição
-    const data = await request.json();
+    const data = (await request.json()) as {
+      nome?: string
+      telefone?: string
+      segmento_alvo?: string
+    }    
     
     // Validar campos obrigatórios
     if (!data.nome || !data.telefone || !data.segmento_alvo) {

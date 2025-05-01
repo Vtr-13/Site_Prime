@@ -1,13 +1,38 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState, ChangeEvent, FormEvent } from 'react';
 import Image from 'next/image';
 
-export default function FormLead({ 
-  title = "Fale com um Consultor",
+// aceita qualquer nome de campo, desde que seja string e boolean
+type CamposForm = {
+  [campo: string]: boolean | undefined
+}
+
+
+type FormLeadProps = {
+  title?: string
+  // nome do serviço ou segmento
+  service?: string
+  // lista de opções (para consórcio, financiamentos etc)
+  serviceOptions?: string[]
+  // rótulo de segmento (você passou "segmentoAlvo" em algumas páginas)
+  segmentoAlvo?: string
+  // controle de quais campos exibir no formulário
+  campos?: CamposForm
+  // perfil do investidor
+  perfisInvestidor?: string[]
+}
+
+
+export default function FormLead({
+  title = "...",
   service = "",
-  serviceOptions = []
-}) {
+  serviceOptions = [],
+  segmentoAlvo,
+  campos,
+  perfisInvestidor,    // <–– aqui
+}: FormLeadProps) {
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -19,15 +44,19 @@ export default function FormLead({
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
+  
+  
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitError('');
