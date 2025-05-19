@@ -1,4 +1,9 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/seguros/page": "app/seguros/page.js",
+  "/quem-somos/page": "app/quem-somos/page.js",
+  "/saude/page": "app/saude/page.js",
+  "/consorcios/page": "app/consorcios/page.js",
+  "/page": "app/page.js",
+  "/investimentos/page": "app/investimentos/page.js",
+  "/financiamentos/page": "app/financiamentos/page.js"
 }

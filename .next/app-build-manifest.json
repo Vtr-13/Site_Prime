@@ -9,7 +9,44 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/page.css",
       "static/chunks/app/page.js"
+    ],
+    "/quem-somos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/quem-somos/page.css",
+      "static/chunks/app/quem-somos/page.js"
+    ],
+    "/seguros/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/seguros/page.css",
+      "static/chunks/app/seguros/page.js"
+    ],
+    "/saude/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/saude/page.css",
+      "static/chunks/app/saude/page.js"
+    ],
+    "/consorcios/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/consorcios/page.css",
+      "static/chunks/app/consorcios/page.js"
+    ],
+    "/financiamentos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/financiamentos/page.css",
+      "static/chunks/app/financiamentos/page.js"
+    ],
+    "/investimentos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/investimentos/page.css",
+      "static/chunks/app/investimentos/page.js"
     ]
   }
 }
