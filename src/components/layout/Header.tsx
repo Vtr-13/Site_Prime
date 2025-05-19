@@ -6,7 +6,6 @@ import Image from 'next/image';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -14,17 +13,19 @@ export default function Header() {
   return (
     <header className="bg-primary py-4 border-b border-white/10">
       <div className="container mx-auto flex justify-between items-center px-4">
+        {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Image 
-            src="/images/logo-arj-prime.png" 
-            alt="ARJ PRIME Logo" 
-            width={150} 
-            height={60} 
-            className="h-12 w-auto"
+          <Image
+            src="/images/logo-arj-prime.png"  
+            alt="ARJ PRIME Logo"
+            width={150}
+            height={50}
+            className="h-24 w-auto"
+            priority
           />
         </Link>
 
-        {/* Desktop Navigation */}
+        {/* Navegação Desktop */}
         <nav className="hidden md:flex space-x-8">
           <Link href="/" className="text-white hover:text-accent transition-colors font-medium">
             Home
@@ -49,15 +50,18 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* CTA Button - Desktop */}
+        {/* CTA Desktop */}
         <div className="hidden md:block">
-          <Link href="#contato" className="bg-accent hover:bg-accent/90 text-white font-medium py-2 px-6 rounded-md transition-all">
+          <Link
+            href="#contato"
+            className="bg-accent hover:bg-accent/90 text-white font-medium py-2 px-6 rounded-md transition-all"
+          >
             Faça uma Cotação
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button 
+        {/* Botão Mobile */}
+        <button
           className="md:hidden text-white"
           onClick={toggleMenu}
           aria-label="Toggle menu"
@@ -74,7 +78,7 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Navegação Mobile */}
       {isMenuOpen && (
         <div className="md:hidden bg-primary border-t border-white/10 py-4">
           <div className="container mx-auto flex flex-col space-y-4 px-4">
@@ -99,7 +103,11 @@ export default function Header() {
             <Link href="/investimentos" className="text-white hover:text-accent transition-colors" onClick={toggleMenu}>
               Investimentos
             </Link>
-            <Link href="#contato" className="bg-accent hover:bg-accent/90 text-white font-medium py-2 px-6 rounded-md transition-all text-center" onClick={toggleMenu}>
+            <Link
+              href="#contato"
+              className="bg-accent hover:bg-accent/90 text-white font-medium py-2 px-6 rounded-md text-center transition-all"
+              onClick={toggleMenu}
+            >
               Faça uma Cotação
             </Link>
           </div>

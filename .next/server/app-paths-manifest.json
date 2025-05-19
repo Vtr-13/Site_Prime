@@ -1,12 +1,4 @@
 {
-  "/api/lead/route": "app/api/lead/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/emprestimo-consignado/page": "app/emprestimo-consignado/page.js",
-  "/investimentos/page": "app/investimentos/page.js",
-  "/consorcios/page": "app/consorcios/page.js",
-  "/financiamentos/page": "app/financiamentos/page.js",
-  "/page": "app/page.js",
-  "/saude/page": "app/saude/page.js",
-  "/seguros/page": "app/seguros/page.js"
+  "/page": "app/page.js"
 }

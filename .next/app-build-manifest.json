@@ -1,78 +1,15 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/app/_not-found/page-436d27733d3c4dad.js"
-    ],
-    "/api/lead/route": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/app/api/lead/route-b50eedc75655998e.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/css/9cbee8d541c8e398.css",
-      "static/chunks/566-5040eb9c15452d5e.js",
-      "static/chunks/app/layout-fcdd00507a9e62fe.js"
-    ],
-    "/emprestimo-consignado/page": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/app/emprestimo-consignado/page-d80131505e7f3589.js"
-    ],
-    "/investimentos/page": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/app/investimentos/page-513296695c9d865a.js"
-    ],
-    "/consorcios/page": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/566-5040eb9c15452d5e.js",
-      "static/chunks/app/consorcios/page-903bc2801b3da750.js"
-    ],
-    "/financiamentos/page": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/app/financiamentos/page-dea3d206759d6ccb.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/566-5040eb9c15452d5e.js",
-      "static/chunks/app/page-0d874d6571765697.js"
-    ],
-    "/saude/page": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/app/saude/page-de93371de004e176.js"
-    ],
-    "/seguros/page": [
-      "static/chunks/webpack-78a1fb4ee5ac37c5.js",
-      "static/chunks/ebe977ba-e4c408354d110c1b.js",
-      "static/chunks/411-906d0c7e038a8484.js",
-      "static/chunks/main-app-98c6c4f4ba93786f.js",
-      "static/chunks/app/seguros/page-df792fbe85a167a7.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ]
   }
 }

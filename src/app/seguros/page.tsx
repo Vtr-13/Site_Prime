@@ -20,7 +20,7 @@ export default function Seguros() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-              <span className="text-white">Seguros</span> <span className="text-accent">ARJ PRIME</span>
+            <span className="text-accent">ARJ PRIME</span> <span className="text-white">SEGUROS</span> 
             </h1>
             <p className="text-lg mb-8">
               Proteção completa para você, sua família e seu patrimônio com as melhores opções do mercado.
